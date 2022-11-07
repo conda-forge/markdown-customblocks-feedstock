@@ -21,11 +21,14 @@ requirements:
   run:
     - beautifulsoup4
     - decorator
+    - geocoder
     - markdown
+    - mkdocs
+    - mkdocs-material
     - python >=3.6
     - pytest
     - responses
-    - yamlns
+    - yamlns >=0.11
 
 test:
   imports:
