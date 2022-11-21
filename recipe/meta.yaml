@@ -28,6 +28,7 @@ requirements:
     - python >=3.6
     - pytest
     - responses
+    - urllib3 <2
     - yamlns >=0.11
 
 test:
