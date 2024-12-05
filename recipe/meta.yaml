@@ -1,13 +1,13 @@
 {% set name = "markdown-customblocks" %}
-{% set version = "1.4.1" %}
+{% set version = "1.5.2" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/markdown-customblocks-{{ version }}.tar.gz
-  sha256: 0d22c3829aacbf938afb0bad25062299dc5f51928991a877e658760e6f6d048a
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: be0d6019c9b2e761ae966eba11948894298c6ce77d165aad6b8f4c9e2e86419f
 
 build:
   noarch: python
