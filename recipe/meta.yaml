@@ -21,16 +21,17 @@ requirements:
     - setuptools
   run:
     - python >={{ python_min }}
+    - markdown
+    - yamlns >=0.11
     - beautifulsoup4
     - decorator
     - geocoder
-    - markdown
-    - mkdocs
-    - mkdocs-material
     - pytest
+    - pytest-cov <4
     - responses
     - urllib3 <2
-    - yamlns >=0.11
+    - python-magic
+    - pillow
 
 test:
   imports:
