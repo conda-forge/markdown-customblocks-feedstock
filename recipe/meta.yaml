@@ -30,7 +30,6 @@ requirements:
     - pytest
     - pytest-cov <4
     - responses
-    - urllib3 <2
     - python-magic
     - pillow
 
